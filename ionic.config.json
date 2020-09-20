@@ -1,0 +1,7 @@
+{
+  "name": "AppATuCasa",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
