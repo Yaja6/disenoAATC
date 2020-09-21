@@ -10,14 +10,15 @@ const WelcomeSeller: React.FC = () => {
             <IonHeader className="ion-no-border">
                 <IonToolbar>
                     <IonButtons  slot="start">
-                        <IonBackButton  text="" icon="add" />
+                        <IonBackButton  text="" icon="add" defaultHref="/Home"/>
+                        <IonTitle>Bienvenido</IonTitle>
                     </IonButtons>
                 </IonToolbar>
             </IonHeader>
             <IonContent fullscreen>
                 <IonList>
                     <IonItem>
-                    <IonLabel> Vamos por los primeros pasos..</IonLabel>
+                    <IonLabel> Vamos por los primeros pasos.. <br/>Si deseas crear un negocio <br/>completa este formulario</IonLabel>
                     </IonItem>
                    
                     <IonItem>
@@ -30,7 +31,7 @@ const WelcomeSeller: React.FC = () => {
                             <p>Continúa registrando tus productos o repartidores</p><br />
                             <IonButton class="b1" expand="block" routerLink="/RegProduct"><IonImg class="i2" src={regp}></IonImg>Registrar <br/> Productos</IonButton><br />
                             <IonButton class="b2" expand="block" routerLink="/RegDealer"><IonImg class="i2" src={regr}></IonImg>Registrar <br/> Repartidores</IonButton><br />
-
+                            <IonButton routerLink="/Categories">Omitir</IonButton>
 
                         </IonLabel>
                     </IonItemDivider>

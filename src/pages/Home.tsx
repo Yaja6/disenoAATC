@@ -21,8 +21,8 @@ const Home: React.FC = () => {
           <IonLabel >
           <p id="l1">¿Qué deseas hacer?</p><br/>
             <IonButton class="b1"  expand="block" routerLink="/Login"><IonImg src={llave}></IonImg>Iniciar Sesión</IonButton><br/>
-            <IonButton class="b2"  expand="block" routerLink="/Products"><IonImg class="i2" src={registrar}></IonImg>Comprar Productos</IonButton><br/>
-            <IonButton class="b2"  expand="block" routerLink="/Register"><IonImg  src={tienda}></IonImg>Vender productos</IonButton>
+            <IonButton class="b2"  expand="block" routerLink="/Categories"><IonImg class="i2" src={registrar}></IonImg>Comprar Productos</IonButton><br/>
+            <IonButton class="b2"  expand="block" routerLink="/Register"><IonImg  src={tienda}></IonImg>Registrarse</IonButton>
 
           </IonLabel>
         </IonItemDivider>

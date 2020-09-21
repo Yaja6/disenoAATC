@@ -2,9 +2,9 @@ import { IonButtons, IonCardContent, IonCard, IonTitle, IonBackButton, IonConten
 import React from 'react';
 import { pin, wifi, wine, warning, walk } from 'ionicons/icons';
 import './style.css';
-import limpieza from '../images/limpieza.webp';
+import limpieza from '../images/limp.jpeg';
 import tec from '../images/tec.jpg';
-import alimentos from '../images/alimentos.jpg';
+import alimentos from '../images/alime.png';
 
 const Categories: React.FC = () => {
     return (
@@ -13,8 +13,8 @@ const Categories: React.FC = () => {
                 <IonToolbar>
 
                     <IonButtons color="dark" slot="start">
-                        <IonBackButton color="dark" text="" icon="add" />
-                        <IonTitle>Inicio</IonTitle>
+                        <IonBackButton color="dark" defaultHref="/Home" text="" icon="add" />
+                        <IonTitle>Categorías</IonTitle>
                     </IonButtons>
                 </IonToolbar>
             </IonHeader>
@@ -23,8 +23,8 @@ const Categories: React.FC = () => {
 
                 <IonLabel >
 
-                    <IonButton class="b4" expand="block" routerLink="/ProductList"><IonImg src={alimentos}></IonImg></IonButton>
-                    <IonButton class="b4" expand="block" routerLink="/ProductList"><IonImg src={tec}></IonImg></IonButton>
+                    <IonButton class="b4" expand="block" routerLink="/Food"><IonImg src={alimentos}></IonImg></IonButton>
+                    <IonButton class="b4" expand="block" routerLink="/Tecnology"><IonImg src={tec}></IonImg></IonButton>
                     <IonButton class="b4" expand="block" routerLink="/ProductList"><IonImg src={limpieza}></IonImg></IonButton>
 
 

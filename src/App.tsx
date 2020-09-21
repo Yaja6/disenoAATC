@@ -7,10 +7,11 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import RegProduct from './pages/RegProduct';
 import RegDealer from './pages/RegDealer';
-import Products from './pages/Products';
+import Food from './pages/Food';
 import WelcomeSeller from './pages/WelcomeSeller';
 import Categories from './pages/Categories';
 import ProductList from './pages/ProductList';
+import Tecnology from './pages/Tecnology';
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
 
@@ -46,14 +47,16 @@ const App: React.FC = () => (
         <Route exact path="/" render={() => <Redirect to="/regproduct" />} />
         <Route path="/regdealer" component={RegDealer} exact={true} />
         <Route exact path="/" render={() => <Redirect to="/regdealer" />} />
-        <Route path="/products" component={Products} exact={true} />
-        <Route exact path="/" render={() => <Redirect to="/products" />} />
+        <Route path="/food" component={Food} exact={true} />
+        <Route exact path="/" render={() => <Redirect to="/food" />} />
         <Route path="/welcomeseller" component={WelcomeSeller} exact={true} />
         <Route exact path="/" render={() => <Redirect to="/welcomeseller" />} />
         <Route path="/categories" component={Categories} exact={true} />
         <Route exact path="/" render={() => <Redirect to="/categories" />} />
         <Route path="/productlist" component={ProductList} exact={true} />
         <Route exact path="/" render={() => <Redirect to="/productlist" />} />
+        <Route path="/tecnology" component={Tecnology} exact={true} />
+        <Route exact path="/" render={() => <Redirect to="/tecnology" />} />
       </IonRouterOutlet>
     </IonReactRouter>
   </IonApp>

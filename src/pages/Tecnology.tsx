@@ -8,14 +8,14 @@ import {
 import React from 'react';
 import { pin, wifi, wine, warning, walk } from 'ionicons/icons';
 import './style.css';
-import alcohol from '../images/alcohol.jpg';
-import escoba from '../images/escoba.webp';
-import trapeador from '../images/trape.jpg';
-import cloro from '../images/cloro.webp';
+import cel2 from '../images/cel2.jpg';
+import cel1 from '../images/cel1.webp';
+import cel3 from '../images/cel3.jpg';
+import lap1 from '../images/lap1.jpg';
 import axios from 'axios';
 
 
-const ProductList: React.FC = () => {
+const Tecnology: React.FC = () => {
     //window.menuController = menuController;
 
     return (
@@ -25,7 +25,7 @@ const ProductList: React.FC = () => {
                 <IonToolbar>
                     <IonButtons color="dark" slot="start">
                         <IonBackButton color="dark" text="" icon="add" />
-                        <IonTitle>Limpieza</IonTitle>
+                        <IonTitle>Tecnología</IonTitle>
                     </IonButtons>
                 </IonToolbar>
             </IonHeader>
@@ -33,50 +33,50 @@ const ProductList: React.FC = () => {
 
                 <IonCard class="c1">
                     <IonCardHeader>
-                        <IonImg src={cloro}></IonImg>
-                        <IonCardTitle>Cloro</IonCardTitle>
-                        <IonCardSubtitle>2U x 14$</IonCardSubtitle>
+                        <IonImg src={cel1}></IonImg>
+                        <IonCardTitle>Celular LG K11</IonCardTitle>
+                        <IonCardSubtitle>800$</IonCardSubtitle>
 
                     </IonCardHeader>
 
                     <IonCardContent>
-                        sin descripción
+                        Banda abierta
                     </IonCardContent>
                 </IonCard>
                 <IonCard class="c1">
                     <IonCardHeader>
-                        <IonImg src={alcohol}></IonImg>
-                        <IonCardTitle>Alcohol</IonCardTitle>
-                        <IonCardSubtitle>6$</IonCardSubtitle>
+                        <IonImg src={cel2}></IonImg>
+                        <IonCardTitle>Galaxy A20</IonCardTitle>
+                        <IonCardSubtitle>650$</IonCardSubtitle>
 
                     </IonCardHeader>
 
                     <IonCardContent>
-                        Alcohol para uso casero
+                        Sin descripción
                     </IonCardContent>
                 </IonCard>
                 <IonCard class="c1">
                     <IonCardHeader>
-                        <IonImg src={escoba}></IonImg>
-                        <IonCardTitle>Escoba</IonCardTitle>
-                        <IonCardSubtitle>5$</IonCardSubtitle>
+                        <IonImg src={cel3}></IonImg>
+                        <IonCardTitle>Celular vivo Y50 128GB</IonCardTitle>
+                        <IonCardSubtitle>550$</IonCardSubtitle>
 
                     </IonCardHeader>
 
                     <IonCardContent>
-                        Escobas diferentes colores
+                        Sin descripción
                     </IonCardContent>
                 </IonCard>
                 <IonCard class="c1">
                     <IonCardHeader>
-                        <IonImg src={trapeador}></IonImg>
-                        <IonCardTitle>Trapeador</IonCardTitle>
-                        <IonCardSubtitle>6$</IonCardSubtitle>
+                        <IonImg src={lap1}></IonImg>
+                        <IonCardTitle>Laptop HP 13.3</IonCardTitle>
+                        <IonCardSubtitle>1100$</IonCardSubtitle>
 
                     </IonCardHeader>
 
                     <IonCardContent>
-                        sin descripción
+                    Delgada y ligera Laptop HP Pavilion de 13.3" de pantalla y peso 1.3Kg
                     </IonCardContent>
                 </IonCard>
             </IonContent>
@@ -86,4 +86,4 @@ const ProductList: React.FC = () => {
     );
 };
 
-export default ProductList;
+export default Tecnology;
