@@ -1,0 +1,44 @@
+:root {
+    /* Set the background of the entire app */
+  
+    /* Set the font family of the entire app */
+    --ion-font-family:  "Comic Sans", "Roboto", sans-serif;
+    --ion-background-color: #45ABB9;
+    --ion-text-color: #FFFFFF;
+
+  }
+  .m{
+    
+    --width:150px;
+  }
+.b1{
+    margin-left:50px;
+    height: 90px;
+    width: 235px;
+    --background: #000000;
+}
+.b2{
+    --background: #000000;
+    margin-left:50px;
+    height: 90px;
+    width: 235px;
+}
+
+#l1{
+    margin-left:90px;
+    font-size: large;
+    color: #FFFFFF;
+    font-family: 'Oxygen';
+    
+    
+}
+.i1{
+    margin-left: 30px;
+    width: 300px;
+}
+.i2{
+    width: 80px;
+}
+.my-custom-class .alert-wrapper {
+    background: #e5e5e5;
+  }
